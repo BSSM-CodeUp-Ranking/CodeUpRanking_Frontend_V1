@@ -1,9 +1,11 @@
 import {styled , createGlobalStyle} from 'styled-components'
+import Header from './components/header';
 
 function App() {
   return (
     <Main>
       <GlobalStyle />
+      <Header />
     </Main>
   );
 }
